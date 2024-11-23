@@ -9,8 +9,8 @@
             "hash": "930A0164A12A59F8C07D46A8418A61369970AC21FC19E48F47BB65B39A1D7230"
         }
     },
-    "extract_dir": "zen-browser",
-    "bin": "zen\\zen.exe",
+    "extract_dir": "zen",
+    "bin": "zen.exe",
     "shortcuts": [
         [
             "zen.exe",
