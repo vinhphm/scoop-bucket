@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1.20241202.0010",
+    "version": "1.0.1.20241203.0011",
     "description": "Experience tranquillity while browsing the web without people tracking you!",
     "homepage": "https://zen-browser.app/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/zen-browser/desktop/releases/download/twilight/zen.win-specific.zip",
-            "hash": "608873a230b073fc7974014a9836bf17fe27bc9c23efe8e7e8fb33c55a0585ba"
+            "hash": "dbfc64f3b84f69a9bfa1603e1f2762c5bf9c26e18970b0a4beb6f7941e99bd59"
         }
     },
     "extract_dir": "zen",
