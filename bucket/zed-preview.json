@@ -18,9 +18,14 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/vinhphm/zed-windows-builds"
+        "github": "https://github.com/vinhphm/zed-windows-builds",
+        "regex": "v([\\d.]+)-pre"
     },
     "autoupdate": {
-        "url": "https://github.com/vinhphm/zed-windows-builds/releases/download/$version/zed-windows.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vinhphm/zed-windows-builds/releases/download/v$version-pre/zed-windows.zip"
+            }
+        }
     }
 }
